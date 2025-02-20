@@ -16,7 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # Load existing Chrome profile
 chrome_options = Options()
-chrome_options.add_argument("user-data-dir=/home/juss/.config/google-chrome")  # Change to your profile path: helps to awoid reCAPTCHA
+chrome_options.add_argument("user-data-dir=/home/juss/.config/google-chrome")  # Change to your profile path: helps to bypass reCAPTCHA
 
 # Initialize WebDriver
 service = Service()
